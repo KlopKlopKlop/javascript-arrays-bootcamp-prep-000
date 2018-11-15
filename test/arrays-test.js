@@ -29,7 +29,7 @@ describe('arrays', () => {
       expect(array).to.eql([1])
     })
   })
-
+  
   describe('destructivelyAddElementToBeginningOfArray(array, element)', () => {
     it('adds an element to the beginning of an array', () => {
       expect(destructivelyAddElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1])
@@ -43,7 +43,7 @@ describe('arrays', () => {
       expect(array).to.eql(['foo', 1])
     })
   })
-
+  
   describe('addElementToEndOfArray(array, element)', () => {
     it('adds an element to the end of an array', () => {
       expect(addElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
@@ -57,7 +57,7 @@ describe('arrays', () => {
       expect(array).to.eql([1])
     })
   })
-
+  
   describe('destructivelyAddElementToEndOfArray(array, element)', () => {
     it('adds an element to the end of an array', () => {
       expect(destructivelyAddElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
@@ -71,7 +71,7 @@ describe('arrays', () => {
       expect(array).to.eql([1, 'foo'])
     })
   })
-
+/*
   describe('accessElementInArray(array, index)', () => {
     it('accesses the element in array at the given index', () => {
       expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
@@ -126,5 +126,5 @@ describe('arrays', () => {
       removeElementFromEndOfArray(array);
       expect(array).to.eql([1, 2, 3]);
     })
-  })
+  }) */
 })
