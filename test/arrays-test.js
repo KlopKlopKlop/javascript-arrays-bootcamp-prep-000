@@ -115,7 +115,7 @@ describe('arrays', () => {
       expect(array).to.eql([1, 2]);
     })
   })
-  /*
+  
   describe('removeElementFromEndOfArray(array)', () => {
     it('removes the last element from the array', () => {
       expect(removeElementFromEndOfArray([1, 2, 3])).to.eql([1, 2])
@@ -126,5 +126,5 @@ describe('arrays', () => {
       removeElementFromEndOfArray(array);
       expect(array).to.eql([1, 2, 3]);
     })
-  }) */
+  }) 
 })
