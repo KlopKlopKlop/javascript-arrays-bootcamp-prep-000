@@ -89,7 +89,7 @@ describe('arrays', () => {
       expect(array).to.eql([2, 3]);
     })
   })
-
+/*
   describe('removeElementFromBeginningOfArray(array)', () => {
     it('removes the first element from the array', () => {
       expect(removeElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
